@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FreePicross PFC</string>
+    <string name="author">Santiago Gonzàlez i Bertran</string>
+    <string name="version">(v1.0)</string>
+    <string name="license">Creative Commons License 2011</string>
+    
+    <string name="confirmExit">"Estàs segur que vols sortir del programa?"</string>
+    <string name="confirmSurrender">"Estàs segur que vols abandonar el nivell?"</string>
+    <string name="choiceYes">Si</string>
+    <string name="choiceNo">No</string>
+    <string name="choiceOk">D\'acord"</string>
+    <string name="choiceSurrender">Rendir-se</string>
+    <string name="choiceExit">Sortir</string>
+    <string name="choiceBack">Tornar</string>
+    <string name="choicePlay">Jugar</string>
+    <string name="choiceScores">Puntuacions</string>
+    <string name="choiceTutorial">Tutorial</string>
+    <string name="choiceNext">Següent</string>
+    <string name="choicePrevious">Anterior</string>
+    <string name="choiceEnableMusic">Encendre música</string>
+    <string name="choiceDisableMusic">Apagar música</string>
+    <string name="choiceEnableSound">Encendre sorolls</string>
+    <string name="choiceDisableSound">Apagar sorolls</string>
+    <string name="textSelectLevel">Sel·leccioneu el nivell...</string>
+    <string name="textHighScores">Puntuacions més altes</string>
+    <string name="textNotCompleted">No completat</string>
+    
+    <string name="nameLevel01">Nivell 1</string>
+    <string name="nameLevel02">Nivell 2</string>
+    <string name="nameLevel03">Nivell 3</string>
+    <string name="nameLevel04">Nivell 4</string>
+    <string name="nameLevel05">Nivell 5</string>
+    <string name="nameLevel06">Nivell 6</string>
+    <string name="nameLevel07">Nivell 7</string>
+    <string name="nameLevel08">Nivell 8</string>
+    <string name="nameLevel09">Nivell 9</string>
+    <string name="nameLevel10">Nivell 10</string>
+    <string name="nameLevel11">Nivell 11</string>
+    <string name="nameLevel12">Nivell 12</string>
+    <string name="nameLevel13">Nivell 13</string>
+    <string name="nameLevel14">Nivell 14</string>
+    <string name="nameLevel15">Nivell 15</string>
+    
+    <string name="textLesson01">Objectiu:\n\n
+    	Donada una matriu de cubs, l\'objectiu consisteix en descobrir quins d\'ells son falsos, deixant intactes únicament aquells que siguin sòlids.\n\n
+    	Per fer-ho, cal parar atenció a les pistes que es poden trobar impreses als laterals d\'algus cubs, i fer servir les eines adients segons la situació ho requereixi.\n\n
+    	A les següents pàgines d\'aquest tutorial, podràs trobar informació sobre el funcionament i la forma d\'interactuar amb el programa.</string>
+    <string name="textLesson02">Interacció:\n\n
+    	Un cop seleccionat el nivell, apareixerà per pantalla l\'entorn gràfic del joc. Aquest entorn està formar per cinc parts, detallades a continuació:\n\n
+    	La part central mostra la matriu de joc. Es possible fer-la rotar sobre els eixos X i Z, tocant el centre de la pantalla i desplaçant el dit en horitzontal o vertical. El color de fons d\'aquesta regió indica quina és la eina seleccionada en tot moment.\n\n 
+    	A la part superior es pot trobar la barra de "zoom". Tocant aquesta barra i desplaçant el dit en horitzontal, podrem apropar o allunyar la matriu, de forma que sigui més senzill poder-hi interactuar.\n\n
+    	A la part inferior s\'hi troba la barra d\'eines. Aquesta barra d\'eines disposa d\'un pinzell i d\'un martell. Al seleccionar el pinzell, el fons es torna de color blau, i això farà que quan es presioni un cub, aquest quedi en estat protegit, impedint que pugui ser trencat per error. D\'altra banda, si es selecciona el martell, el fons es tornarà de color vermell, i quan es presioni un cub s\'intentarà destruir. Per tornar al mode normal, n\'hi ha prou seleccionant de nou l\'eina activa. Això farà que el fons es torni de color blau.\n\n
+    	Es possible també fer desapareixer rangleres de cubs lateralment, a fi de poder accedir als cubs interors de la matriu, ocults quan aquesta és de 3x3x3 o més gran. Per fer-ho, cal desplaçar verticalment el dit per qualsevol dels dos extrems laterals de la pantalla. Un desplaçament cap amunt farà que s\'amagui una renglera, mentre que un desplaçament cap aball farà que aquesta torni a apareixer.\n\n
+    	Al principi, pot resultar una mica embolicat fer-se amb el control del joc, però amb poca estona de pràctica, aconseguiràs dominar a la perfecció la dinàmica.</string>
+	<string name="textLesson03">Regles:\n\n
+		Per tenir èxit davant un nivell, és imprescindible parar atenció a les pistes que conté el cub. Cada un dels nombres que s\'hi poden trobar impresos és una pista. Aquesta pista indica QUANTS CUBS SON SÒLIDS, a la fila en la que està dibuixada. Així, per exemple, si en una fila de cinc cubs hi trobem un 2 dibuixat, voldrà dir que només dos dels cubs que formen aquella fila són sòlids, o sigui que tard o d\'hora se n\'hauràn de destruir tres.\n\n
+		El concepte es ben simple però, segons la situació, alguns cops s\'ha de ser molt agut per esbrinar deductivament quin ha de ser el següent pas. Tingues en compte que aquesta aplicació està dissenyada per que MAI hagis de destruir cap cub a l\'atzar. Si interpretes be les pistes, en tot moment podràs trobar-ne alguna que t\'indiqui quin ha de ser el següent cub a trencar o a assegurar.\n\n
+		Sobre les pistes, només has de tenir en compte les característiques descrites a continuació:\n\n
+		1) Un <b>nombre sense enmarcar</b> indica que aquella quantitat de cubs es troben ADJACENTS els uns amb els altres.\n\n
+		2) Un <b>nombre enmarcat en un cercle</b> indica que aquella quantitat de cubs es troben SEPARATS EN DOS GRUPS els uns amb els altres.\n\n
+		2) Un <b>nombre enmarcat en un quadrat</b> indica que aquella quantitat de cubs es troben SEPARATS EN TRES GRUPS O MÉS els uns amb els altres.\n\n
+		Hauràs superat el nivell quan hagis trencat tots aquells cubs de la matriu que siguin falsos, però si comets masses errors, o bé exhaureixes el temps màxim del nivell, hauràs de tornar a començar des del principi.\n\n
+		<b>BONA SORT!</b> </string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background" >
+	
+	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:gravity="center_vertical|center_horizontal">
+	
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:gravity="center_vertical|center_horizontal" >
+	
+			<Button
+			    android:id="@+id/buttonLevels"
+			    android:text="@string/choicePlay"
+			    android:textSize="48sp"
+			    android:layout_width="225dp"
+			    android:layout_height="175dp" >
+			</Button>
+			
+		</LinearLayout>
+			
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="4"
+			android:gravity="center_vertical|center_horizontal" >
+			
+			<Button
+			    android:id="@+id/buttonScores"
+			    android:text="@string/choiceScores"
+			    android:textSize="12sp"
+			    android:layout_width="175dp"
+			    android:layout_height="50dp" >
+			</Button>
+			
+		</LinearLayout>
+			
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="4"
+			android:gravity="center_vertical|center_horizontal" >
+			
+			<Button
+			    android:id="@+id/buttonTutorial"
+			    android:text="@string/choiceTutorial"
+			    android:textSize="12sp"
+			    android:layout_width="175dp"
+			    android:layout_height="50dp" >
+			</Button>
+		
+		</LinearLayout>
+		
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="5"
+		android:gravity="bottom|right" >
+		
+		<Button
+		    android:id="@+id/buttonBackToTitle"
+		    android:text="@string/choiceBack"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" >
+		</Button>
+	
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/title_screen" >
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:gravity="bottom|center_horizontal" >
+		
+		<Button
+		    android:id="@+id/buttonLaunch"
+		    android:text="Començar"
+		    android:textSize="32sp"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" >
+		</Button>
+	
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="5" >
+		
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:gravity="bottom|left" >
+			
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="bottom|left" >
+			
+				<TextView
+					android:text="@string/app_name"
+					android:textColor="#000000"
+					android:textSize="12sp"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+					
+				<TextView
+					android:text="@string/version"
+					android:textColor="#000000"
+					android:textSize="12sp"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+				
+			</LinearLayout>
+				
+			<TextView
+				android:text="@string/author"
+				android:textColor="#000000"
+				android:textSize="12sp"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"/>
+				
+			<TextView
+				android:text="@string/license"
+				android:textColor="#000000"
+				android:textSize="12sp"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"/>
+		
+		</LinearLayout>
+		
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:gravity="bottom|right" >
+			
+				<Button
+			    android:id="@+id/buttonExitGame"
+			    android:text="@string/choiceExit"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content" >
+				</Button>
+		
+		</LinearLayout>
+	
+	</LinearLayout>
+
+</LinearLayout>

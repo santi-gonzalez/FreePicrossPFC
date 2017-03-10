@@ -1,0 +1,52 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="edu.upc.fib.freepicrosspfc">
+
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+  <application
+      android:allowBackup="true"
+      android:icon="@drawable/icon"
+      android:label="@string/app_name">
+    <activity
+        android:name=".activites.ActivityTitle"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/CustomButton">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity
+        android:name=".activites.ActivityOptions"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/CustomButton">
+    </activity>
+    <activity
+        android:name=".activites.ActivityLevels"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/CustomButton">
+    </activity>
+    <activity
+        android:name=".activites.ActivityScores"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/CustomButton">
+    </activity>
+    <activity
+        android:name=".activites.ActivityTutorial"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/CustomButton">
+    </activity>
+    <activity
+        android:name=".activites.ActivityGame"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/CustomButton">
+    </activity>
+  </application>
+
+</manifest>

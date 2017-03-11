@@ -1,452 +1,451 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical"
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent"
-	android:background="@drawable/background" >
-	
-	<TextView
-		android:text="@string/textHighScores"
-		android:textColor="#000000"
-		android:textSize="24sp"
-	   	android:layout_width="fill_parent"
-	   	android:layout_height="wrap_content"
-	   	android:gravity="center_horizontal" />
-	
-	<LinearLayout 
-		android:orientation="vertical"
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-		android:layout_weight="1"
-		android:gravity="center_vertical|center_horizontal" >
-		
-		<TableLayout
-			android:layout_width="fill_parent"
-			android:layout_height="fill_parent" >
-			
-			<TableRow>
-			
-				<TextView
-					android:textColor="#000000"
-					android:text="@string/nameLevel01"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content" 
-					android:layout_weight="1"/>
-					
-				<TextView
-					android:id="@+id/TextLevel01Errors"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-				<TextView
-					android:id="@+id/TextLevel01Time"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-			</TableRow>
-			
-			<TableRow>
-			
-				<TextView
-					android:textColor="#000000"
-					android:text="@string/nameLevel02"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content" 
-					android:layout_weight="1"/>
-					
-				<TextView
-					android:id="@+id/TextLevel02Errors"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-				<TextView
-					android:id="@+id/TextLevel02Time"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-			</TableRow>
-			
-			<TableRow>
-			
-				<TextView
-					android:textColor="#000000"
-					android:text="@string/nameLevel03"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content" 
-					android:layout_weight="1"/>
-					
-				<TextView
-					android:id="@+id/TextLevel03Errors"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-				<TextView
-					android:id="@+id/TextLevel03Time"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-			</TableRow>
-			
-			<TableRow>
-			
-				<TextView
-					android:textColor="#000000"
-					android:text="@string/nameLevel04"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content" 
-					android:layout_weight="1"/>
-					
-				<TextView
-					android:id="@+id/TextLevel04Errors"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-				<TextView
-					android:id="@+id/TextLevel04Time"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-			</TableRow>
-			
-			<TableRow>
-			
-				<TextView
-					android:textColor="#000000"
-					android:text="@string/nameLevel05"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content" 
-					android:layout_weight="1"/>
-					
-				<TextView
-					android:id="@+id/TextLevel05Errors"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-				<TextView
-					android:id="@+id/TextLevel05Time"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-			</TableRow>
-			
-			<TableRow>
-			
-				<TextView
-					android:textColor="#000000"
-					android:text="@string/nameLevel06"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content" 
-					android:layout_weight="1"/>
-					
-				<TextView
-					android:id="@+id/TextLevel06Errors"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-				<TextView
-					android:id="@+id/TextLevel06Time"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-			</TableRow>
-			
-			<TableRow>
-			
-				<TextView
-					android:textColor="#000000"
-					android:text="@string/nameLevel07"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content" 
-					android:layout_weight="1"/>
-					
-				<TextView
-					android:id="@+id/TextLevel07Errors"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-				<TextView
-					android:id="@+id/TextLevel07Time"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-			</TableRow>
-			
-			<TableRow>
-			
-				<TextView
-					android:textColor="#000000"
-					android:text="@string/nameLevel08"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content" 
-					android:layout_weight="1"/>
-					
-				<TextView
-					android:id="@+id/TextLevel08Errors"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-				<TextView
-					android:id="@+id/TextLevel08Time"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-			</TableRow>
-			
-			<TableRow>
-			
-				<TextView
-					android:textColor="#000000"
-					android:text="@string/nameLevel09"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content" 
-					android:layout_weight="1"/>
-					
-				<TextView
-					android:id="@+id/TextLevel09Errors"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-				<TextView
-					android:id="@+id/TextLevel09Time"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-			</TableRow>
-			
-			<TableRow>
-			
-				<TextView
-					android:textColor="#000000"
-					android:text="@string/nameLevel10"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content" 
-					android:layout_weight="1"/>
-					
-				<TextView
-					android:id="@+id/TextLevel10Errors"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-				<TextView
-					android:id="@+id/TextLevel10Time"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-			</TableRow>
-			
-			<TableRow>
-			
-				<TextView
-					android:textColor="#000000"
-					android:text="@string/nameLevel11"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content" 
-					android:layout_weight="1"/>
-					
-				<TextView
-					android:id="@+id/TextLevel11Errors"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-				<TextView
-					android:id="@+id/TextLevel11Time"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-			</TableRow>
-			
-			<TableRow>
-			
-				<TextView
-					android:textColor="#000000"
-					android:text="@string/nameLevel12"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content" 
-					android:layout_weight="1"/>
-					
-				<TextView
-					android:id="@+id/TextLevel12Errors"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-				<TextView
-					android:id="@+id/TextLevel12Time"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-			</TableRow>
-			
-			<TableRow>
-			
-				<TextView
-					android:textColor="#000000"
-					android:text="@string/nameLevel13"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content" 
-					android:layout_weight="1"/>
-					
-				<TextView
-					android:id="@+id/TextLevel13Errors"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-				<TextView
-					android:id="@+id/TextLevel13Time"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-			</TableRow>
-			
-			<TableRow>
-			
-				<TextView
-					android:textColor="#000000"
-					android:text="@string/nameLevel14"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content" 
-					android:layout_weight="1"/>
-					
-				<TextView
-					android:id="@+id/TextLevel14Errors"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-				<TextView
-					android:id="@+id/TextLevel14Time"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-			</TableRow>
-			
-			<TableRow>
-			
-				<TextView
-					android:textColor="#000000"
-					android:text="@string/nameLevel15"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content" 
-					android:layout_weight="1"/>
-					
-				<TextView
-					android:id="@+id/TextLevel15Errors"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-				<TextView
-					android:id="@+id/TextLevel15Time"
-					android:textColor="#000000"
-					android:text="@string/textNotCompleted"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_weight="1" />
-					
-			</TableRow>
-		
-		</TableLayout>
-		
-	</LinearLayout>
-	
-	<LinearLayout
-		android:orientation="vertical"
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-		android:layout_weight="5"
-		android:gravity="bottom|right" >
-		
-		<Button
-		    android:id="@+id/buttonBackToMenu"
-		    android:text="@string/choiceBack"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content" >
-		</Button>
-	
-	</LinearLayout>
-	
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/background"
+              android:orientation="vertical">
+
+  <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center_horizontal"
+      android:text="@string/textHighScores"
+      android:textColor="#000000"
+      android:textSize="24sp" />
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_weight="1"
+      android:gravity="center_vertical|center_horizontal"
+      android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameLevel01"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel01Errors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel01Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameLevel02"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel02Errors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel02Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameLevel03"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel03Errors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel03Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameLevel04"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel04Errors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel04Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameLevel05"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel05Errors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel05Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameLevel06"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel06Errors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel06Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameLevel07"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel07Errors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel07Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameLevel08"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel08Errors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel08Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameLevel09"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel09Errors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel09Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameLevel10"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel10Errors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel10Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameLevel11"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel11Errors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel11Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameLevel12"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel12Errors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel12Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameLevel13"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel13Errors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel13Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameLevel14"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel14Errors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel14Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameLevel15"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel15Errors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextLevel15Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textNotCompleted"
+            android:textColor="#000000" />
+
+      </TableRow>
+
+    </TableLayout>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_weight="5"
+      android:gravity="bottom|right"
+      android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonBackToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choiceBack"></Button>
+
+  </LinearLayout>
+
 </LinearLayout>

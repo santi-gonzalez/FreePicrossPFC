@@ -1,7 +1,6 @@
 <resources>
-    <style
-        name="CustomButton"
-        parent="android:style/Theme.NoTitleBar">
-        <item name="android:buttonStyle">@style/Button</item>
-    </style>
+
+  <style name="CustomButton" parent="android:style/Theme.NoTitleBar">
+    <item name="android:buttonStyle">@style/Button</item>
+  </style>
 </resources>

@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/SwitchMusic" />
-    <item android:id="@+id/SwitchSound" />
-    <item android:id="@+id/Back" />
+  <item android:id="@+id/SwitchMusic" />
+  <item android:id="@+id/SwitchSound" />
+  <item android:id="@+id/Back" />
 </menu>
     
     

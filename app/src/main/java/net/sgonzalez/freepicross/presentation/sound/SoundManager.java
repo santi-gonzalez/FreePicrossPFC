@@ -3,8 +3,8 @@ package net.sgonzalez.freepicross.presentation.sound;
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.SoundPool;
-import edu.upc.fib.freepicrosspfc.R;
 import java.util.HashMap;
+import net.sgonzalez.freepicross.R;
 
 /**
  * @author Santiago Gonzàlez i Bertran

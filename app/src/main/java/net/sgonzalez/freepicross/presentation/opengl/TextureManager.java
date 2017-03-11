@@ -4,11 +4,11 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.opengl.GLUtils;
-import edu.upc.fib.freepicrosspfc.R;
 import java.io.IOException;
 import java.io.InputStream;
 import javax.microedition.khronos.opengles.GL10;
 import javax.microedition.khronos.opengles.GL11;
+import net.sgonzalez.freepicross.R;
 
 /**
  * @author Santiago Gonzàlez i Bertran

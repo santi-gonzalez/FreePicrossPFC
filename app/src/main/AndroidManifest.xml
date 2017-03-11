@@ -1,18 +1,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="edu.upc.fib.freepicrosspfc">
+          package="net.sgonzalez.freepicross">
 
   <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
   <application
-      android:name="net.sgonzalez.freepicross.App"
+      android:name=".App"
       android:allowBackup="false"
       android:icon="@drawable/icon"
       android:label="@string/app_name"
       android:theme="@style/AppTheme"
       tools:ignore="AllowBackup,GoogleAppIndexingWarning">
     <activity
-        android:name="net.sgonzalez.freepicross.presentation.menus.activity.TitleActivity"
+        android:name=".presentation.menus.activity.TitleActivity"
         android:screenOrientation="portrait">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -20,30 +20,33 @@
       </intent-filter>
     </activity>
     <activity
-        android:name="net.sgonzalez.freepicross.presentation.game.activity.GameActivity"
+        android:name=".presentation.menus.activity.DashboardActivity"
         android:screenOrientation="portrait" />
     <activity
-        android:name="net.sgonzalez.freepicross.presentation.menus.ActivityTitle"
+        android:name=".presentation.game.activity.GameActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name=".presentation.menus.ActivityTitle"
         android:label="@string/app_name"
         android:screenOrientation="portrait" />
     <activity
-        android:name="net.sgonzalez.freepicross.presentation.menus.ActivityOptions"
+        android:name=".presentation.menus.ActivityOptions"
         android:label="@string/app_name"
         android:screenOrientation="portrait" />
     <activity
-        android:name="net.sgonzalez.freepicross.presentation.menus.ActivityLevels"
+        android:name=".presentation.menus.ActivityLevels"
         android:label="@string/app_name"
         android:screenOrientation="portrait" />
     <activity
-        android:name="net.sgonzalez.freepicross.presentation.menus.ActivityScores"
+        android:name=".presentation.menus.ActivityScores"
         android:label="@string/app_name"
         android:screenOrientation="portrait" />
     <activity
-        android:name="net.sgonzalez.freepicross.presentation.menus.ActivityTutorial"
+        android:name=".presentation.menus.ActivityTutorial"
         android:label="@string/app_name"
         android:screenOrientation="portrait" />
     <activity
-        android:name="net.sgonzalez.freepicross.presentation.game.ActivityGame"
+        android:name=".presentation.game.ActivityGame"
         android:label="@string/app_name"
         android:screenOrientation="portrait" />
   </application>

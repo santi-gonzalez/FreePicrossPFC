@@ -11,7 +11,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import edu.upc.fib.freepicrosspfc.R;
+import net.sgonzalez.freepicross.R;
 import net.sgonzalez.freepicross.data.DataManager;
 import net.sgonzalez.freepicross.domain.gameplay.GameManager;
 import net.sgonzalez.freepicross.domain.gameplay.LevelManager;
@@ -58,7 +58,7 @@ extends Activity {
     SoundManager.getInstance().playSounds();
     //SoundManager.getInstance().stopSounds();
     //Initialize buttons
-    Button launch = (Button) findViewById(R.id.buttonLaunch);
+    Button launch = (Button) findViewById(R.id.start_game);
     Button exit = (Button) findViewById(R.id.buttonExitGame);
     buttonPressed = false;
     //Set Button Listeners

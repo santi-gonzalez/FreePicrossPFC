@@ -4,7 +4,7 @@ import android.content.Context;
 import android.media.MediaPlayer;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
-import edu.upc.fib.freepicrosspfc.R;
+import net.sgonzalez.freepicross.R;
 
 /**
  * @author Santiago Gonzàlez i Bertran

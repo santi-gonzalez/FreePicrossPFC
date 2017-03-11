@@ -4,7 +4,7 @@ import android.content.Context;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import edu.upc.fib.freepicrosspfc.R;
+import net.sgonzalez.freepicross.R;
 import net.sgonzalez.freepicross.presentation.sound.MusicManager;
 import net.sgonzalez.freepicross.presentation.sound.SoundManager;
 

@@ -9,7 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import edu.upc.fib.freepicrosspfc.R;
+import net.sgonzalez.freepicross.R;
 import net.sgonzalez.freepicross.data.DataManager;
 import net.sgonzalez.freepicross.domain.navigation.MenuManager;
 import net.sgonzalez.freepicross.presentation.sound.MusicManager;

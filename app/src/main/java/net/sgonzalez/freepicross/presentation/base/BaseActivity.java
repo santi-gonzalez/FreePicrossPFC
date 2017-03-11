@@ -1,37 +1,41 @@
 package net.sgonzalez.freepicross.presentation.base;
 
 import android.os.Bundle;
+import android.support.annotation.LayoutRes;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import butterknife.ButterKnife;
 import net.sgonzalez.freepicross.App;
-import net.sgonzalez.freepicross.di.component.ActivityComponent;
-import net.sgonzalez.freepicross.di.component.ApplicationComponent;
-import net.sgonzalez.freepicross.di.component.DaggerActivityComponent;
-import net.sgonzalez.freepicross.di.module.ActivityModule;
 
 public abstract class BaseActivity
 extends AppCompatActivity {
+  public static final int INVALID_ID = BaseFragment.INVALID_ID;
 
   @Override
   protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    injectDependencies();
+    initContentView();
+    bindViews();
+    onCreateFragments();
   }
 
-  private void injectDependencies() {
-    onInject(DaggerActivityComponent.builder()
-                                    .applicationComponent(getApplicationComponent())
-                                    .activityModule(new ActivityModule(this))
-                                    .build());
+  private void initContentView() {
+    int contentView = getContentView();
+    if (contentView > INVALID_ID) {
+      setContentView(contentView);
+    }
+  }
+
+  private void bindViews() {
+    ButterKnife.bind(this);
   }
 
   protected App getApp() {
     return (App) getApplication();
   }
 
-  protected ApplicationComponent getApplicationComponent() {
-    return getApp().getApplicationComponent();
-  }
+  @LayoutRes
+  protected abstract int getContentView();
 
-  protected abstract void onInject(ActivityComponent activityComponent);
+  protected abstract void onCreateFragments();
 }

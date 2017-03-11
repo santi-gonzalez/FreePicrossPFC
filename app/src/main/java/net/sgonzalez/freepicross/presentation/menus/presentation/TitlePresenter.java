@@ -6,9 +6,19 @@ import net.sgonzalez.freepicross.presentation.base.BasePresenter;
 
 @ActivityScope
 public class TitlePresenter
-extends BasePresenter {
+extends BasePresenter<TitlePresenter.View> {
 
   @Inject
   public TitlePresenter() {
+  }
+
+  public void onStartGameClicked() {
+    getView().onStartGame();
+  }
+
+  public interface View
+  extends BasePresenter.BaseView {
+
+    void onStartGame();
   }
 }

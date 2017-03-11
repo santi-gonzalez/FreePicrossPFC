@@ -13,7 +13,7 @@
       android:orientation="vertical">
 
     <Button
-        android:id="@+id/buttonLaunch"
+        android:id="@+id/start_game"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Començar"
@@ -49,7 +49,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/version"
+            android:text="@string/version_info_version"
             android:textColor="#000000"
             android:textSize="12sp" />
 
@@ -58,14 +58,14 @@
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="@string/author"
+          android:text="@string/version_info_author"
           android:textColor="#000000"
           android:textSize="12sp" />
 
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="@string/license"
+          android:text="@string/version_info_license"
           android:textColor="#000000"
           android:textSize="12sp" />
 

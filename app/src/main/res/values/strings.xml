@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">FreePicross PFC</string>
-  <string name="author">Santiago Gonzàlez i Bertran</string>
-  <string name="version">(v1.0)</string>
-  <string name="license">Creative Commons License 2011</string>
+  <string name="app_name">FreePicross</string>
+  <string name="version_info_author">Santiago Gonzàlez i Bertran</string>
+  <string name="version_info_version">[ver. 1.4]</string>
+  <string name="version_info_license">Apache License v2.0</string>
 
   <string name="confirmExit">"Estàs segur que vols sortir del programa?"</string>
   <string name="confirmSurrender">"Estàs segur que vols abandonar el nivell?"</string>
@@ -62,4 +62,6 @@
 		2) Un <b>nombre enmarcat en un quadrat</b> indica que aquella quantitat de cubs es troben SEPARATS EN TRES GRUPS O MÉS els uns amb els altres.\n\n
 		Hauràs superat el nivell quan hagis trencat tots aquells cubs de la matriu que siguin falsos, però si comets masses errors, o bé exhaureixes el temps màxim del nivell, hauràs de tornar a començar des del principi.\n\n
 		<b>BONA SORT!</b> </string>
+
+  <string name="action_start">Començar</string>
 </resources>

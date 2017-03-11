@@ -1,4 +1,5 @@
 <resources>
+
   <style name="Button" parent="@android:style/Widget.Button">
     <item name="android:gravity">center_vertical|center_horizontal</item>
     <item name="android:textColor">#FFFFFFFF</item>

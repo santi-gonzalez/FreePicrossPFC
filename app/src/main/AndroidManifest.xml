@@ -9,42 +9,43 @@
       android:allowBackup="false"
       android:icon="@drawable/icon"
       android:label="@string/app_name"
+      android:theme="@style/AppTheme"
       tools:ignore="AllowBackup,GoogleAppIndexingWarning">
     <activity
-        android:name="net.sgonzalez.freepicross.presentation.menus.ActivityTitle"
-        android:label="@string/app_name"
-        android:screenOrientation="portrait"
-        android:theme="@style/CustomButton">
+        android:name="net.sgonzalez.freepicross.presentation.menus.activity.TitleActivity"
+        android:screenOrientation="portrait">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
     <activity
+        android:name="net.sgonzalez.freepicross.presentation.game.activity.GameActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="net.sgonzalez.freepicross.presentation.menus.ActivityTitle"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait" />
+    <activity
         android:name="net.sgonzalez.freepicross.presentation.menus.ActivityOptions"
         android:label="@string/app_name"
-        android:screenOrientation="portrait"
-        android:theme="@style/CustomButton" />
+        android:screenOrientation="portrait" />
     <activity
         android:name="net.sgonzalez.freepicross.presentation.menus.ActivityLevels"
         android:label="@string/app_name"
-        android:screenOrientation="portrait"
-        android:theme="@style/CustomButton" />
+        android:screenOrientation="portrait" />
     <activity
         android:name="net.sgonzalez.freepicross.presentation.menus.ActivityScores"
         android:label="@string/app_name"
-        android:screenOrientation="portrait"
-        android:theme="@style/CustomButton" />
+        android:screenOrientation="portrait" />
     <activity
         android:name="net.sgonzalez.freepicross.presentation.menus.ActivityTutorial"
         android:label="@string/app_name"
-        android:screenOrientation="portrait"
-        android:theme="@style/CustomButton" />
+        android:screenOrientation="portrait" />
     <activity
         android:name="net.sgonzalez.freepicross.presentation.game.ActivityGame"
         android:label="@string/app_name"
-        android:screenOrientation="portrait"
-        android:theme="@style/CustomButton" />
+        android:screenOrientation="portrait" />
   </application>
 
 </manifest>

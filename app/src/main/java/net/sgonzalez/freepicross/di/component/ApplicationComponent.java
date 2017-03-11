@@ -8,5 +8,6 @@ import net.sgonzalez.freepicross.di.module.ApplicationModule;
 @Singleton
 @Component(modules = { ApplicationModule.class })
 public interface ApplicationComponent {
+  void inject(App app);
   App getApp();
 }

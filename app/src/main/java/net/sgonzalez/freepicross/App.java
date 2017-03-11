@@ -19,6 +19,11 @@ extends Application {
     super.onCreate();
     registerApplicationInstance();
     createApplicationComponent();
+    injectDependencies();
+  }
+
+  public ApplicationComponent getApplicationComponent() {
+    return applicationComponent;
   }
 
   private void registerApplicationInstance() {
@@ -29,7 +34,7 @@ extends Application {
     applicationComponent = DaggerApplicationComponent.builder().applicationModule(new ApplicationModule(this)).build();
   }
 
-  public ApplicationComponent getApplicationComponent() {
-    return applicationComponent;
+  private void injectDependencies() {
+    applicationComponent.inject(this);
   }
 }

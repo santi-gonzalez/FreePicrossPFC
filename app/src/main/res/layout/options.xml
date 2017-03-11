@@ -24,7 +24,7 @@
           android:layout_width="225dp"
           android:layout_height="175dp"
           android:text="@string/choicePlay"
-          android:textSize="48sp"></Button>
+          android:textSize="48sp" />
 
     </LinearLayout>
 
@@ -40,7 +40,7 @@
           android:layout_width="175dp"
           android:layout_height="50dp"
           android:text="@string/choiceScores"
-          android:textSize="12sp"></Button>
+          android:textSize="12sp" />
 
     </LinearLayout>
 
@@ -56,7 +56,7 @@
           android:layout_width="175dp"
           android:layout_height="50dp"
           android:text="@string/choiceTutorial"
-          android:textSize="12sp"></Button>
+          android:textSize="12sp" />
 
     </LinearLayout>
 
@@ -73,7 +73,7 @@
         android:id="@+id/buttonBackToTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/choiceBack"></Button>
+        android:text="@string/choiceBack" />
 
   </LinearLayout>
 

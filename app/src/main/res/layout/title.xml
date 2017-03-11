@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Començar"
-        android:textSize="32sp"></Button>
+        android:textSize="32sp" />
 
   </LinearLayout>
 
@@ -81,7 +81,7 @@
           android:id="@+id/buttonExitGame"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="@string/choiceExit"></Button>
+          android:text="@string/choiceExit" />
 
     </LinearLayout>
 

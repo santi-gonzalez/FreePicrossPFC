@@ -67,7 +67,7 @@
           android:id="@+id/buttonPreviousLesson"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="@string/choicePrevious"></Button>
+          android:text="@string/choicePrevious" />
 
     </LinearLayout>
 
@@ -82,7 +82,7 @@
           android:id="@+id/buttonNextLesson"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="@string/choiceNext"></Button>
+          android:text="@string/choiceNext" />
 
     </LinearLayout>
 
@@ -97,7 +97,7 @@
           android:id="@+id/buttonBackToMenu"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="@string/choiceBack"></Button>
+          android:text="@string/choiceBack" />
 
     </LinearLayout>
 

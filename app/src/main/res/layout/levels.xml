@@ -31,21 +31,21 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center_horizontal"
-            android:text="@string/nameLevel01"></Button>
+            android:text="@string/nameLevel01" />
 
         <Button
             android:id="@+id/ButtonLoadLevel02"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center_horizontal"
-            android:text="@string/nameLevel02"></Button>
+            android:text="@string/nameLevel02" />
 
         <Button
             android:id="@+id/ButtonLoadLevel03"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center_horizontal"
-            android:text="@string/nameLevel03"></Button>
+            android:text="@string/nameLevel03" />
 
       </TableRow>
 
@@ -56,21 +56,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/nameLevel04"></Button>
+            android:text="@string/nameLevel04" />
 
         <Button
             android:id="@+id/ButtonLoadLevel05"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/nameLevel05"></Button>
+            android:text="@string/nameLevel05" />
 
         <Button
             android:id="@+id/ButtonLoadLevel06"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/nameLevel06"></Button>
+            android:text="@string/nameLevel06" />
 
       </TableRow>
 
@@ -81,21 +81,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/nameLevel07"></Button>
+            android:text="@string/nameLevel07" />
 
         <Button
             android:id="@+id/ButtonLoadLevel08"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/nameLevel08"></Button>
+            android:text="@string/nameLevel08" />
 
         <Button
             android:id="@+id/ButtonLoadLevel09"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/nameLevel09"></Button>
+            android:text="@string/nameLevel09" />
 
       </TableRow>
 
@@ -106,21 +106,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/nameLevel10"></Button>
+            android:text="@string/nameLevel10" />
 
         <Button
             android:id="@+id/ButtonLoadLevel11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/nameLevel11"></Button>
+            android:text="@string/nameLevel11" />
 
         <Button
             android:id="@+id/ButtonLoadLevel12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/nameLevel12"></Button>
+            android:text="@string/nameLevel12" />
 
       </TableRow>
 
@@ -131,21 +131,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/nameLevel13"></Button>
+            android:text="@string/nameLevel13" />
 
         <Button
             android:id="@+id/ButtonLoadLevel14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/nameLevel14"></Button>
+            android:text="@string/nameLevel14" />
 
         <Button
             android:id="@+id/ButtonLoadLevel15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/nameLevel15"></Button>
+            android:text="@string/nameLevel15" />
 
       </TableRow>
 
@@ -164,7 +164,7 @@
         android:id="@+id/buttonBackToMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/choiceBack"></Button>
+        android:text="@string/choiceBack" />
 
   </LinearLayout>
 
